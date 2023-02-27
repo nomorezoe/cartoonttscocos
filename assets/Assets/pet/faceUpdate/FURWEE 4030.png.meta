@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "793c27a2-d40f-4506-b44f-e2017fc43e2c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 386,
+  "height": 386,
+  "platformSettings": {},
+  "subMetas": {
+    "FURWEE 4030": {
+      "ver": "1.0.4",
+      "uuid": "2fd02480-ab86-4aa2-b07a-d21c1f8bd753",
+      "rawTextureUuid": "793c27a2-d40f-4506-b44f-e2017fc43e2c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 5,
+      "trimX": 12,
+      "trimY": 38,
+      "width": 363,
+      "height": 300,
+      "rawWidth": 386,
+      "rawHeight": 386,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

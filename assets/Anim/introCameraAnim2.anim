@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "introCameraAnim2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 12,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            960,
+            640,
+            1024
+          ]
+        },
+        {
+          "frame": 2,
+          "value": [
+            960,
+            590,
+            676
+          ]
+        }
+      ]
+    },
+    "comps": {
+      "cc.Camera": {
+        "fov": [
+          {
+            "frame": 0,
+            "value": 17
+          },
+          {
+            "frame": 2,
+            "value": 24
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
