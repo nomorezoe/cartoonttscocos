@@ -278,8 +278,8 @@ cc.Class({
     blockClickHandler() {
         this.blockerNode.active = false;
         this.music.initialize();
-        //this.tryToStartFurweeIntro();
-        this.introCameraAnim();
+        this.tryToStartFurweeIntro();
+        //this.introCameraAnim();
     },
 
     introCameraAnim() {
