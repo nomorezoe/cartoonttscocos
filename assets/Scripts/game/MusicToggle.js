@@ -1,3 +1,4 @@
+
 let MusicToggle = cc.Class({
     extends: cc.Component,
 
@@ -11,7 +12,12 @@ let MusicToggle = cc.Class({
             type: cc.AudioClip,
             default: null
         },
-        anim: cc.Animation
+        anim: cc.Animation,
+        bgVolumn: 0.8,
+
+        bgSlider: cc.Slider, 
+        bgProgress: cc.ProgressBar,
+       
     },
 
     initialize() {
@@ -31,9 +37,9 @@ let MusicToggle = cc.Class({
             this.toggleOff();
         }
 
+        this.bgSlider.node.on('slide', this.sliderAdjust.bind(this));
 
-
-        // this.node.on("mouseOver")
+       
 
     },
 
@@ -51,6 +57,8 @@ let MusicToggle = cc.Class({
         this.offNode.active = false;
         this.hintText.string = "Turn Volumn On";
 
+        this.bgSlider.node.active = false;
+
         if (this.audioId != null) {
             cc.audioEngine.pauseMusic();
         }
@@ -63,12 +71,21 @@ let MusicToggle = cc.Class({
         this.onNode.active = false;
         this.hintText.string = "Turn Volumn Off";
 
+        this.bgSlider.node.active = true;
+
         if (!this.audioId) {
-            this.audioId = cc.audioEngine.playMusic(this.music, true);
+            this.audioId = cc.audioEngine.playMusic(this.music, true, this.bgVolumn);
         }
         else {
             cc.audioEngine.resumeMusic();
         }
-    }
+    },
 
+    sliderAdjust(value){
+        this.bgProgress.progress = value.progress;
+        this.bgVolumn = value.progress;
+        cc.audioEngine.setMusicVolume(this.bgVolumn);
+    },
+
+   
 });

@@ -41,7 +41,7 @@ cc.Class({
             this.bg = this.whiteBG;
         }
         else {
-            this.text.node.color = new cc.Color("#FFFFFF");
+            //this.text.node.color = new cc.Color("#FFFFFF");
             this.whiteBG.active = false;
             this.pinkBG.active = true;
 

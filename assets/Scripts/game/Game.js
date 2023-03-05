@@ -31,7 +31,9 @@ cc.Class({
         introCameras: [cc.Camera],
         furweeIntialized:false,
 
-        URL: "http://40.121.137.102"
+        URL: "http://40.121.137.102",
+
+        enableTextInput: false
 
     },
 
@@ -56,7 +58,8 @@ cc.Class({
 
         return;
 
-*/
+*/  
+        this.setEnableTextInput(false);
         this.onTextLenChange(this.editBox.string);
         this.startFurwee();
 
@@ -127,6 +130,7 @@ cc.Class({
         }
         this.furweeIntialized = true;
 
+        this.setEnableTextInput(true);
         this.onTTSCompleted(this.initialMsgJSON, function () {
 
             this.addBallon(this.initialMsgJSON.reply, true);
@@ -174,6 +178,9 @@ cc.Class({
 
 
     sendHandler() {
+        if(!this.enableTextInput){
+            return;
+        }
         let sendText = this.editBox.string;
         if (sendText.trim().length == 0) {
             return;
@@ -183,6 +190,7 @@ cc.Class({
          return;
  */
 
+        this.setEnableTextInput(false);
         this.addBallon(sendText, false);
         this.editBox.string = "";
         this.editBox.focus();
@@ -197,6 +205,7 @@ cc.Class({
             if (xhr.readyState == XMLHttpRequest.DONE) {
                 if (xhr.status == 200) {
                     let json = JSON.parse(xhr.responseText);
+                    that.setEnableTextInput(true);
                     that.onTTSCompleted(json);
 
                     that.historyObjects.push({ "index": that.historyObjects.length, "reply": json.reply, "message": json.message });
@@ -322,4 +331,14 @@ cc.Class({
         this.idleMouthTimeout = -1;
     },
 
+    errorClickHandler(){
+        if(window.captureError){
+            window.captureError();
+        }
+
+    },
+
+    setEnableTextInput(bool){
+        this.editBox.enabled = this.enableTextInput = bool;
+    }
 });
