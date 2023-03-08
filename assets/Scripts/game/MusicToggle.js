@@ -15,9 +15,10 @@ let MusicToggle = cc.Class({
         anim: cc.Animation,
         bgVolumn: 0.8,
 
-        bgSlider: cc.Slider, 
+        bgSlider: cc.Slider,
         bgProgress: cc.ProgressBar,
-       
+        offTimer: -1
+
     },
 
     initialize() {
@@ -28,10 +29,6 @@ let MusicToggle = cc.Class({
 
         if (this.isMusicOn) {
             this.toggleOn();
-            /*setTimeout(function(){ 
-                cc.sys.__audioSupport.context.resume();
-                cc.game.canvas.dispatchEvent(new Event("mousedown"))
-            }, 3000);*/
         }
         else {
             this.toggleOff();
@@ -39,7 +36,8 @@ let MusicToggle = cc.Class({
 
         this.bgSlider.node.on('slide', this.sliderAdjust.bind(this));
 
-       
+        this.bgSlider.node.on(cc.Node.EventType.TOUCH_CANCEL, this.volumnCancelled, this);
+        this.bgSlider._N$handle.node.on(cc.Node.EventType.TOUCH_END, this.volumnCancelled, this);
 
     },
 
@@ -53,6 +51,10 @@ let MusicToggle = cc.Class({
 
 
     toggleOff() {
+        clearTimeout(this.offTimer);
+
+        this.offTimer = -1;
+
         this.onNode.active = true;
         this.offNode.active = false;
         this.hintText.string = "Turn Volumn On";
@@ -79,13 +81,37 @@ let MusicToggle = cc.Class({
         else {
             cc.audioEngine.resumeMusic();
         }
+
+        if (this.bgVolumn == 0) {
+            this.bgProgress.progress = this.bgSlider.progress = this.bgVolumn = 0.8;
+            cc.audioEngine.setMusicVolume(this.bgVolumn);
+        }
     },
 
-    sliderAdjust(value){
+    sliderAdjust(value) {
+          clearTimeout(this.offTimer);
         this.bgProgress.progress = value.progress;
         this.bgVolumn = value.progress;
         cc.audioEngine.setMusicVolume(this.bgVolumn);
+       
     },
 
-   
+    volumnCancelled() {
+        clearTimeout(this.offTimer);
+        if (this.bgVolumn == 0) {
+           
+            this.offTimer = setTimeout(() => {
+                this.checkVolumnToggle();
+            }, 1000);
+        }
+    },
+
+    checkVolumnToggle(){
+        clearTimeout(this.offTimer);
+        if (this.bgVolumn == 0){
+            this.toggleOff();
+        }
+    },
+
+
 });

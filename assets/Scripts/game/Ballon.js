@@ -1,9 +1,4 @@
-// Learn cc.Class:
-//  - https://docs.cocos.com/creator/manual/en/scripting/class.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
+let SwitchWidget = require("SwitchWidget");
 
 cc.Class({
     extends: cc.Component,
@@ -12,22 +7,29 @@ cc.Class({
         whiteBG: cc.Node,
         pinkBG: cc.Node,
         text: cc.Label,
+        switchwidget: SwitchWidget,
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
 
-    start() {
+    onLoad() {
+        this.node.on("mobileView", this.mobileView.bind(this));
+        this.node.on("pcView", this.pcView.bind(this));
+        // this.node.on("mouseOver")
 
+        if(this.switchwidget && !this.switchwidget.isPcView ){
+            this.mobileView();
+        }
     },
 
     // update (dt) {},
 
-    update() {
-        if (this.updateTextHeight) {
+    lateUpdate() {
+        if (this.updateTextHeight >0) {
+            this.updateTextHeight --;
             this.node.height = this.bg.height = Math.max(55, this.text.node.height + 20);
-            this.updateTextHeight = false;
         }
     },
 
@@ -49,7 +51,7 @@ cc.Class({
         }
         this.isFurwee = isFurwee;
         this.text.string = text;
-        this.updateTextHeight = true;
+        this.updateTextHeight = 2;
 
     },
 
@@ -67,6 +69,22 @@ cc.Class({
             this.node.parent.removeChild(this.node);
         }
     },
+
+    mobileView(){
+        this.text.fontSize = 15;
+        this.text.lineHeight = 17;
+        this.text.string = this.text.string;
+
+        this.updateTextHeight = 2;
+    },
+
+    pcView(){
+        this.text.fontSize = 12;
+        this.text.lineHeight = 15;
+        this.text.string = this.text.string;
+
+        this.updateTextHeight = 2;
+    }
 
 
 });

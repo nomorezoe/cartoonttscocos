@@ -73,7 +73,7 @@ let CamAdjust = cc.Class({
         // console.log("target", targetX, targetY);
         let currentX = this.sceneNodes[0].eulerAngles.x;
         let currentY = this.sceneNodes[0].eulerAngles.y;
-        console.log("currentX", currentX, "currentY", currentY);
+        //console.log("currentX", currentX, "currentY", currentY);
 
         let timeY = Math.abs(targetY - currentY) / this.rotRangeY;
         let timeX = Math.abs(targetX - currentX) / this.rotRangeX;
@@ -83,7 +83,7 @@ let CamAdjust = cc.Class({
 
             let rotate3DTo = cc.rotate3DTo(Math.max(timeX, timeY), cc.v3(targetX + this.infos[i].x, targetY + this.infos[i].y, 0));
             // let move3DTo = cc.moveTo(1, cc.v3(targetMoveX, targetMoveY, 0));
-                console.log(targetX, targetY);
+            //    console.log(targetX, targetY);
             // this.cameras[i].node.stopAllActions();
             // this.cameras[i].node.runAction(cc.spawn(rotate3DTo, move3DTo));
 

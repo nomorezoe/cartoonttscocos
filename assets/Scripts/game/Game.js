@@ -29,9 +29,10 @@ cc.Class({
         initialMsgJSON: null,
 
         introCameras: [cc.Camera],
-        furweeIntialized:false,
+        furweeIntialized: false,
 
         URL: "http://40.121.137.102",
+        URL_SUFFIX: "",
 
         enableTextInput: false
 
@@ -47,18 +48,23 @@ cc.Class({
         if (window.location.href.indexOf("localhost") != -1 || window.location.href.indexOf("127.0.0.1") != -1) {
             isLocalHost = true;
         }
+
+        if (window.location.href.indexOf("furwee") != -1) {
+            this.URL = "http://furwee.ai";
+            this.URL_SUFFIX = "furwee.json";
+        }
         console.log("isLocalHost", isLocalHost);
 
         /*
         this.urlAddress = isLocalHost ? "http://127.0.0.1:3000" : "http://13.115.222.147:3000";
         this.socket = new window.io(this.urlAddress, { transports: ['websocket', 'polling', 'flashsocket'] });
-
+        
         this.socket.on("connect", this.handleConnect.bind(this));
         this.socket.on("onTTSCompleted", this.onTTSCompleted.bind(this));
-
+        
         return;
-
-*/  
+        
+        */
         this.setEnableTextInput(false);
         this.onTextLenChange(this.editBox.string);
         this.startFurwee();
@@ -97,7 +103,7 @@ cc.Class({
 
         let that = this;
         let xhr = new XMLHttpRequest();
-        let requestURL = this.URL + "/initial-message/";
+        let requestURL = this.URL + "/initial-message/" + this.URL_SUFFIX;
 
         xhr.onreadystatechange = function () {
             if (xhr.readyState == XMLHttpRequest.DONE) {
@@ -125,7 +131,7 @@ cc.Class({
             return false;
         }
 
-        if(this.furweeIntialized){
+        if (this.furweeIntialized) {
             return false;
         }
         this.furweeIntialized = true;
@@ -178,7 +184,7 @@ cc.Class({
 
 
     sendHandler() {
-        if(!this.enableTextInput){
+        if (!this.enableTextInput) {
             return;
         }
         let sendText = this.editBox.string;
@@ -188,7 +194,7 @@ cc.Class({
 
         /* this.socket.emit("tts", sendText);
          return;
- */
+    */
 
         this.setEnableTextInput(false);
         this.addBallon(sendText, false);
@@ -200,7 +206,7 @@ cc.Class({
         let that = this;
         let xhr = new XMLHttpRequest();
 
-        let requestURL = this.URL + "/messages/";
+        let requestURL = this.URL + "/messages/" + this.URL_SUFFIX;
         xhr.onreadystatechange = function () {
             if (xhr.readyState == XMLHttpRequest.DONE) {
                 if (xhr.status == 200) {
@@ -221,7 +227,7 @@ cc.Class({
 
 
         let xhr2 = new XMLHttpRequest();
-        let requestURL2 = this.URL + "/emotion/";
+        let requestURL2 = this.URL + "/emotion/" + this.URL_SUFFIX;
         xhr2.onreadystatechange = function () {
             if (xhr2.readyState == XMLHttpRequest.DONE) {
                 if (xhr2.status == 200) {
@@ -331,14 +337,20 @@ cc.Class({
         this.idleMouthTimeout = -1;
     },
 
-    errorClickHandler(){
-        if(window.captureError){
+    errorClickHandler() {
+        if (window.captureError) {
             window.captureError();
         }
 
     },
 
-    setEnableTextInput(bool){
+    setEnableTextInput(bool) {
         this.editBox.enabled = this.enableTextInput = bool;
+    },
+
+    logout(){
+        let xhr = new XMLHttpRequest();
+        xhr.open('POST', this.URL  + "/logout", true);
+        xhr.send();
     }
 });

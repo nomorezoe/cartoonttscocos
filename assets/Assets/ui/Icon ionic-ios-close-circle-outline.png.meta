@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "29843fdd-bdc4-4b1f-9518-cdd7358b1d00",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 30,
+  "height": 30,
+  "platformSettings": {},
+  "subMetas": {
+    "Icon ionic-ios-close-circle-outline": {
+      "ver": "1.0.4",
+      "uuid": "470054ed-7bf5-44cc-a2db-0fe02ef73eee",
+      "rawTextureUuid": "29843fdd-bdc4-4b1f-9518-cdd7358b1d00",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 30,
+      "height": 30,
+      "rawWidth": 30,
+      "rawHeight": 30,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

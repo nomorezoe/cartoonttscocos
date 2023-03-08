@@ -13,7 +13,8 @@ let SwitchWidget = cc.Class({
         minWidth: -1, 
         minHeight: -1,
         fitHeight: 640,
-        isPcView: true
+        isPcView: true,
+        fw : -1
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -38,13 +39,14 @@ let SwitchWidget = cc.Class({
         if (!this.node) return;
         var frameSize = cc.view.getFrameSize();
         let w = this.fitHeight / frameSize.height * frameSize.width;
+        this.fw = w;
         console.log("W",w);
         if (w < this.minWidth) {
-            this.node.emit("mobileView");
+            this.node.emit("mobileView", w);
             this.isPcView = false;
         }
         else{
-            this.node.emit("pcView");
+            this.node.emit("pcView", w);
             this.isPcView = true;
         }
     }
