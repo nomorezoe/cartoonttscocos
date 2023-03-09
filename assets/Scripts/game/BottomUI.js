@@ -122,6 +122,11 @@ cc.Class({
         if (this.isFirst) {
             this.isFirst = false;
         }
+
+        /*if(cc.sys.isBrowser){
+            this.editBox.textLabel.fontSize = 20;
+            this.editBox.placeholderLabel.fontSize = 20;
+        }*/
     },
 
     popupComingSoon() {

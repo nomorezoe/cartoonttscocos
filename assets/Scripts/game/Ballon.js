@@ -92,6 +92,11 @@ cc.Class({
         this.text.node.width = 190;
 
         this.updateTextHeight = 2;
+
+        if(cc.sys.isBrowser){
+            this.text.fontSize = 20;
+            this.text.lineHeight = 22;
+        }
     }
 
 
