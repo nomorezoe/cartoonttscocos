@@ -18,10 +18,6 @@ cc.Class({
         this.node.on("mobileView", this.mobileView.bind(this));
         this.node.on("pcView", this.pcView.bind(this));
         // this.node.on("mouseOver")
-
-        if(this.switchwidget && !this.switchwidget.isPcView ){
-            this.mobileView();
-        }
     },
 
     // update (dt) {},
@@ -53,6 +49,10 @@ cc.Class({
         this.text.string = text;
         this.updateTextHeight = 2;
 
+        if(this.switchwidget && !this.switchwidget.isPcView){
+            this.mobileView(this.switchwidget.fw);
+        }
+
     },
 
     step() {
@@ -70,10 +70,14 @@ cc.Class({
         }
     },
 
-    mobileView(){
-        this.text.fontSize = 15;
-        this.text.lineHeight = 17;
+    mobileView(w){
+        this.text.fontSize = 20;
+        this.text.lineHeight = 22;
         this.text.string = this.text.string;
+
+        this.pinkBG.width = Math.max(230, w - 200);
+        this.whiteBG.width = Math.max(230, w - 200);
+        this.text.node.width = Math.max(190, this.pinkBG.width - 40);
 
         this.updateTextHeight = 2;
     },
@@ -82,6 +86,10 @@ cc.Class({
         this.text.fontSize = 12;
         this.text.lineHeight = 15;
         this.text.string = this.text.string;
+
+        this.pinkBG.width = 230;
+        this.whiteBG.width = 230;
+        this.text.node.width = 190;
 
         this.updateTextHeight = 2;
     }

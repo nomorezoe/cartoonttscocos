@@ -40,8 +40,6 @@ cc.Class({
 
     mobileView(w) {
 
-
-
         for (let i = 0; i < this.mobileViews.length; i++) {
             this.mobileViews[i].active = true;
         }
@@ -71,11 +69,15 @@ cc.Class({
         }
     },
 
-    setMobileView(w) {
+    setMobileView(w, gapicon = 8) {
         let GAP_TEXTBG = 30;
         let GAP_BORDER = 10;
-        let GAP_ICON = 8;
+        let GAP_ICON = gapicon;
         let ICON = 36;
+
+
+        this.editBox.textLabel.fontSize = 20;
+        this.editBox.placeholderLabel.fontSize = 20;
 
         this.editBox.node.width = Math.min(420, w - GAP_TEXTBG * 2 - GAP_BORDER * 2 - GAP_ICON - ICON);
         this.mobileEditBG.width = this.editBox.node.width + GAP_TEXTBG * 2;
@@ -98,6 +100,9 @@ cc.Class({
             this.pcViews[i].active = true;
         }
 
+        this.editBox.textLabel.fontSize = 17;
+        this.editBox.placeholderLabel.fontSize = 17;
+
         this.musicWidget.bottom = 46;
         this.musicWidget.left = 62;
         this.musicWidget.updateAlignment();
@@ -110,7 +115,7 @@ cc.Class({
         this.musicButton.x = 0;
 
         this.sendButton.scale = 1;
-
+        this.sendButton.x = 334;
         this.editBox.node.width = 420;
         this.editBox.node.x = 0;
 
@@ -129,14 +134,15 @@ cc.Class({
 
     popMovileFirst() {
         this.mobileFirst.active = true;
+        let oldw = this.mobileEditBG.width;
+        this.mobileEditBG.width = 360;
+        //this.mobileEditBG.x -= (oldw - this.mobileEditBG.width)/2;
+        this.editBox.node.width = 300;
+        this.editBox.node.x += (oldw - this.mobileEditBG.width) / 2;
+        //this.editBox.node.x = this.mobileEditBG.x;
 
-        this.mobileEditBG.width -= 80;
-        this.editBox.node.width -= 80;
-       // this.editBox.node.x -= 50;
-        this.mobileEditBG.x -= 40;
 
-
-        this.mobileFirst.x = this.sendButton.x - 80;
+        this.mobileFirst.x = 180;
 
         this.mobileSmile.x = this.mobileEditBG.x - this.mobileEditBG.width / 2 + 20;
 
