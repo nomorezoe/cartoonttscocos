@@ -93,10 +93,10 @@ cc.Class({
 
         this.updateTextHeight = 2;
 
-        if(cc.sys.isBrowser){
+       /* if(cc.sys.isBrowser){
             this.text.fontSize = 20;
             this.text.lineHeight = 22;
-        }
+        }*/
     }
 
 

@@ -1,0 +1,24 @@
+{
+  "__type__": "cc.Material",
+  "_name": "grass_1",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "abc2cb62-7852-4525-a90d-d474487b88f2"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_ALPHA_TEST": true,
+        "USE_DIFFUSE_TEXTURE": true
+      },
+      "props": {
+        "alphaThreshold": 0.99,
+        "diffuseTexture": {
+          "__uuid__": "3f91310c-cb34-4d9c-a03f-b23f2dc13fa5"
+        }
+      }
+    }
+  }
+}

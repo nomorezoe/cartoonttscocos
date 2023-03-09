@@ -1,6 +1,6 @@
 {
   "ver": "1.0.15",
-  "uuid": "d65a0401-15bf-4e49-b00e-148b0057c747",
+  "uuid": "e387ddd8-1cfa-4a88-8a46-fa521b226dc3",
   "scaleFactor": 1,
   "boneCount": 0,
   "precomputeJointMatrix": false,
@@ -8,13 +8,13 @@
   "subMetas": {
     "buffer.bin": {
       "ver": "1.0.0",
-      "uuid": "ffd71963-ee9b-4a98-9810-7ef73597733a",
+      "uuid": "962b1dd9-0717-49eb-bedf-eae11c1c7b23",
       "name": "buffer.bin",
       "subMetas": {}
     },
     "SM_3D_log.mesh": {
       "ver": "1.0.1",
-      "uuid": "83c9728c-73c1-457e-b40f-c2232275a7ee",
+      "uuid": "9571afcd-f4df-4dfb-bb4e-f655c2f0223c",
       "verts": 3317,
       "tris": 1115,
       "submeshes": 1,
@@ -43,7 +43,7 @@
     },
     "SM_Overhead.mesh": {
       "ver": "1.0.1",
-      "uuid": "b59eb063-e0d1-4490-98af-6759c4a0b44b",
+      "uuid": "f9f51f23-0506-4457-8f2f-508cd47a8e62",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -71,7 +71,7 @@
     },
     "SM_Side_Plant.mesh": {
       "ver": "1.0.1",
-      "uuid": "b71e39ba-f620-458d-bf90-377743048b8f",
+      "uuid": "56219944-6633-4a19-89bf-444a0a89f7ce",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -99,7 +99,7 @@
     },
     "M_SidePlant2.mesh": {
       "ver": "1.0.1",
-      "uuid": "b253a1ab-efab-4639-9d5d-fcd2d43ddcb8",
+      "uuid": "0f574c8d-a40c-4e4a-81f6-a61d70998d3f",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -127,7 +127,7 @@
     },
     "SM_Plant_IntroBlur.mesh": {
       "ver": "1.0.1",
-      "uuid": "c174ff15-327e-4c68-9c30-7d75bdf3bcc0",
+      "uuid": "8eef5572-c925-4c48-a6a3-0c067f5db176",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -155,7 +155,7 @@
     },
     "SM_SideLeaf2a.mesh": {
       "ver": "1.0.1",
-      "uuid": "69e344c2-4d59-4214-a58d-af6dda3ff18e",
+      "uuid": "d7f321ef-69e8-4aef-8bd6-4594ae259d95",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -183,7 +183,7 @@
     },
     "SM_SideLeafFS.mesh": {
       "ver": "1.0.1",
-      "uuid": "fecd88c9-4977-4aa7-81be-7ef0f755a100",
+      "uuid": "fb02b176-bdda-4e23-a38c-ed9e3f919c5e",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -211,7 +211,7 @@
     },
     "SM_Branch.mesh": {
       "ver": "1.0.1",
-      "uuid": "2f965a5e-f819-435e-9e85-0ba6bbe2a1f0",
+      "uuid": "bccee4e0-5dfe-4799-9388-a7ccfa3836d7",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -239,7 +239,7 @@
     },
     "SM_GroundPlane.mesh": {
       "ver": "1.0.1",
-      "uuid": "b7b2bf9b-828f-4fc4-ae0e-5ce27d33d3ca",
+      "uuid": "d2633f21-0ccd-44b8-ab0a-0431f497d704",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -267,7 +267,7 @@
     },
     "SM_Sky.mesh": {
       "ver": "1.0.1",
-      "uuid": "079ac037-1ffc-4b7e-a05b-721e95e2c546",
+      "uuid": "1e1095a9-96ac-434b-9bf4-9c0b0ab1c43f",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -295,7 +295,7 @@
     },
     "SM_Tree.mesh": {
       "ver": "1.0.1",
-      "uuid": "84d7a9c8-5e40-425a-9542-2c140199853b",
+      "uuid": "1d06ae07-2fb6-4bf1-b23a-bfe0f2ae2480",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -323,7 +323,7 @@
     },
     "SM_bkg_Tree_5.mesh": {
       "ver": "1.0.1",
-      "uuid": "bf0e0099-0ab6-4d88-a29b-7ed3ee4ff802",
+      "uuid": "aa13dbfc-d0fc-45ff-b268-10bf2e9c830d",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -351,7 +351,7 @@
     },
     "SM_bkg_tree2.mesh": {
       "ver": "1.0.1",
-      "uuid": "a6f5cd84-91c2-4723-9885-e8625695394e",
+      "uuid": "8a38fd44-e293-4b18-8698-6c9d5ba1d20d",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -379,7 +379,7 @@
     },
     "SM_bkg_tree3.mesh": {
       "ver": "1.0.1",
-      "uuid": "1e50bd25-d911-49d9-8cb4-07371692c6d9",
+      "uuid": "58b0789e-2810-4f8d-824f-d63499c4e311",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -407,7 +407,7 @@
     },
     "SM_bkg_tree4.mesh": {
       "ver": "1.0.1",
-      "uuid": "9511bf68-a391-4382-a05f-a51ddd2f58e0",
+      "uuid": "076db347-ad40-4d3f-a4bb-bc5ad5d9fe4d",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -435,7 +435,7 @@
     },
     "SM_light3.mesh": {
       "ver": "1.0.1",
-      "uuid": "1609cb46-3478-4511-a57d-ede50e3b3e41",
+      "uuid": "57de6201-4017-4888-a8d4-0701363499e2",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -463,7 +463,7 @@
     },
     "SM_light4.mesh": {
       "ver": "1.0.1",
-      "uuid": "fc4fe7ea-2ae9-4230-b680-ce6fb83f6c39",
+      "uuid": "2ef5bd7b-b642-4437-bc6b-c7449a1d79f0",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -491,7 +491,7 @@
     },
     "SM_stump.mesh": {
       "ver": "1.0.1",
-      "uuid": "07064aea-f6a5-40d6-8445-78023afefde9",
+      "uuid": "86bc0d71-45a8-413e-a929-d01deb76258a",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -519,7 +519,7 @@
     },
     "SM_Grass5.mesh": {
       "ver": "1.0.1",
-      "uuid": "6b1d85d6-0dce-4161-8e0f-e40f970ec3c3",
+      "uuid": "82578f6f-b715-4f54-9ed8-1f1ea3ccef9e",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -547,7 +547,7 @@
     },
     "SM_Grass18.mesh": {
       "ver": "1.0.1",
-      "uuid": "7040cb9d-c718-4096-a640-145b88de51f8",
+      "uuid": "06359fb0-8ebf-4408-9b35-658e1859ae99",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -575,7 +575,7 @@
     },
     "SM_Grass15.mesh": {
       "ver": "1.0.1",
-      "uuid": "f9eba471-b60f-448e-ba1f-28836a8a957d",
+      "uuid": "4fb14036-3f81-4b8f-aaa6-74ee37b6503d",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -603,7 +603,7 @@
     },
     "SM_Grass17.mesh": {
       "ver": "1.0.1",
-      "uuid": "e5669e2d-967d-4ab5-a716-da05219535e5",
+      "uuid": "82723893-bb58-43a6-8b9d-07517d340a33",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -631,7 +631,7 @@
     },
     "SM_Grass8.mesh": {
       "ver": "1.0.1",
-      "uuid": "c14ac8ec-8d22-4e40-99d0-79dcfbe5ed07",
+      "uuid": "3c5771d7-08cd-4896-bbba-a5cd94110dd7",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -659,7 +659,7 @@
     },
     "SM_Grass13.mesh": {
       "ver": "1.0.1",
-      "uuid": "40901121-52cf-4acc-890e-72b9139d448e",
+      "uuid": "182a99ea-cb39-4c37-8a7b-e66345a37d20",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -687,7 +687,7 @@
     },
     "SM_Grass9.mesh": {
       "ver": "1.0.1",
-      "uuid": "5866adfa-e989-45c7-9166-6bbae71e4117",
+      "uuid": "0721c311-a2b5-430e-bf26-f544da68551c",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -715,7 +715,7 @@
     },
     "SM_Grass1.mesh": {
       "ver": "1.0.1",
-      "uuid": "1c14e708-4c22-4fd2-b34c-1a2c373dc1b4",
+      "uuid": "1980f439-7799-4858-b713-51affa410c6c",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -743,7 +743,7 @@
     },
     "SM_Grass6.mesh": {
       "ver": "1.0.1",
-      "uuid": "b498f882-04c7-4c04-8821-b5cc70127f25",
+      "uuid": "a5a03e28-413d-477e-b25c-02fb7db3ceba",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -771,7 +771,7 @@
     },
     "SM_Grass.mesh": {
       "ver": "1.0.1",
-      "uuid": "e4b14a5a-b8c2-4f15-8a17-8eb61d574a42",
+      "uuid": "18ed51c1-79d7-405a-8eb2-52d21f7dd9b0",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -799,7 +799,7 @@
     },
     "SM_Grass2.mesh": {
       "ver": "1.0.1",
-      "uuid": "534d372c-13da-47a2-b162-6bce94998d49",
+      "uuid": "c392dd28-2fb5-4a2f-9e52-e2740acc36cf",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -827,7 +827,7 @@
     },
     "SM_Grass3.mesh": {
       "ver": "1.0.1",
-      "uuid": "f07b58f1-fe20-4a0d-95b2-7730d41927a9",
+      "uuid": "8d63f449-2cd2-412c-b0c0-202704a01e3b",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -855,7 +855,7 @@
     },
     "SM_Grass4.mesh": {
       "ver": "1.0.1",
-      "uuid": "2fb2adc8-6fed-4e48-bf53-743f70eef66f",
+      "uuid": "152b67a1-0954-40a3-9574-396d180df1c0",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -883,7 +883,7 @@
     },
     "SM_Grass7.mesh": {
       "ver": "1.0.1",
-      "uuid": "bed4af1b-eb64-4d9b-a0e0-cca4c62837e2",
+      "uuid": "41c78460-d00c-4502-ac92-169ba14492fa",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -911,7 +911,7 @@
     },
     "SM_Grass16.mesh": {
       "ver": "1.0.1",
-      "uuid": "ed99834f-2a78-4bfe-ad54-3f5a0a0c98ed",
+      "uuid": "44dfc8ec-a880-4ee4-9ec0-4dfbcfa22da7",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -939,7 +939,7 @@
     },
     "SM_Grass19.mesh": {
       "ver": "1.0.1",
-      "uuid": "90e005e7-cd38-4bd7-92c6-dd2e82934dae",
+      "uuid": "33e2a836-34ca-4787-a45d-067b617bf6d4",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -967,7 +967,7 @@
     },
     "SM_Grass14.mesh": {
       "ver": "1.0.1",
-      "uuid": "833117b6-771f-45ba-b16b-f47436c758b6",
+      "uuid": "7a7c6581-bccd-4d31-bec4-79cd2c3c7529",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -995,7 +995,7 @@
     },
     "SM_Grass12.mesh": {
       "ver": "1.0.1",
-      "uuid": "48ede57e-e774-404a-9ccf-054e94ce0293",
+      "uuid": "3d0f8097-82f7-4bfb-9b0e-167436ac2cfa",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -1023,7 +1023,7 @@
     },
     "SM_Grass11.mesh": {
       "ver": "1.0.1",
-      "uuid": "cd948bb7-0206-487f-8f26-6dae948afcdd",
+      "uuid": "2831b1db-a86a-45ce-bbba-4ad7722ee1dc",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -1051,7 +1051,7 @@
     },
     "SM_Grass10.mesh": {
       "ver": "1.0.1",
-      "uuid": "b457aabc-0f76-47f1-b75f-b7ed21060da4",
+      "uuid": "7198e03e-297f-46ff-9403-4360da63da45",
       "verts": 4,
       "tris": 2,
       "submeshes": 1,
@@ -1079,7 +1079,7 @@
     },
     "SM_3D_Plant2.mesh": {
       "ver": "1.0.1",
-      "uuid": "1455b79c-0309-4c10-939b-3d3eaf809e76",
+      "uuid": "afefea38-f3ac-49c1-91e7-87775b2ec6d2",
       "verts": 582,
       "tris": 204,
       "submeshes": 1,
@@ -1108,7 +1108,7 @@
     },
     "SM_3D_Plant1.mesh": {
       "ver": "1.0.1",
-      "uuid": "8ad2449e-4ff5-4350-850c-c452b02ed1d8",
+      "uuid": "c9616aa6-fba5-4991-a0ae-09902d2ba7b6",
       "verts": 582,
       "tris": 204,
       "submeshes": 1,
@@ -1137,7 +1137,7 @@
     },
     "SM_3D_Plant.mesh": {
       "ver": "1.0.1",
-      "uuid": "085d31b2-b952-4ed6-8f73-73be265d40fa",
+      "uuid": "09163346-4d48-42df-bfce-1eafe033714c",
       "verts": 582,
       "tris": 204,
       "submeshes": 1,
@@ -1166,7 +1166,7 @@
     },
     "Furwee_Map_EP_V04.prefab": {
       "ver": "1.2.7",
-      "uuid": "965542fa-816f-4c7b-9d41-eeb47f3c5d1d",
+      "uuid": "8a57e7ad-4d2a-4d7f-8717-41a981ed0678",
       "optimizationPolicy": "AUTO",
       "asyncLoadAssets": false,
       "readonly": true,
@@ -1284,127 +1284,127 @@
     },
     "M_Overhead.mtl": {
       "ver": "1.0.3",
-      "uuid": "e30bedef-8703-4a89-9090-6463b762a498",
+      "uuid": "66ca36fe-4d1b-4634-b755-4467de91aab8",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"9ffac304-5e42-45b7-835d-3bd377da13b4\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_Overhead.mtl",
       "subMetas": {}
     },
     "M_side_plant.mtl": {
       "ver": "1.0.3",
-      "uuid": "fc8d19cf-5eb8-4672-b1ec-bed53a86e70d",
+      "uuid": "5d313e9f-7754-4965-9cc8-5e4708dded51",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"f05e8cc2-c46d-4faf-926a-79261c892d59\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_side_plant.mtl",
       "subMetas": {}
     },
     "M_Plant_IntroBlur.mtl": {
       "ver": "1.0.3",
-      "uuid": "a48b85c5-76ac-4719-9ccf-d7af1effb3ef",
+      "uuid": "b7ca993b-6144-4235-880f-b590717a82cf",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"9a80bc2b-0b6f-4d5e-8559-c09a1ff74d84\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_Plant_IntroBlur.mtl",
       "subMetas": {}
     },
     "M_SideLeaf2a.mtl": {
       "ver": "1.0.3",
-      "uuid": "8190abee-183f-47b2-b2e2-920dc306f977",
+      "uuid": "0c50dd5b-0937-4696-879d-b860acb09bfd",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"b3c17e56-8334-4d72-9f3b-fe7428486524\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_SideLeaf2a.mtl",
       "subMetas": {}
     },
     "M_SideLeafFS.mtl": {
       "ver": "1.0.3",
-      "uuid": "42f1ec4a-e548-4ebe-a1cf-d53549408142",
+      "uuid": "c9a3557e-bacc-454c-b648-7bb91c762cbb",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"7e4d8a5a-87bc-48b8-b305-6e298e10a6d4\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_SideLeafFS.mtl",
       "subMetas": {}
     },
     "M_Branch.mtl": {
       "ver": "1.0.3",
-      "uuid": "305cd88a-f743-4522-b8fd-6d83ea1e3a05",
+      "uuid": "ebb3a9c1-5baa-418f-b6d2-b02098c3410b",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"a4eafd46-d911-4613-baef-1e6f564215fd\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_Branch.mtl",
       "subMetas": {}
     },
     "M_GroundPlane.mtl": {
       "ver": "1.0.3",
-      "uuid": "f25b00f6-5edf-4a45-b9c6-81c8bb6e6048",
-      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"1708d80d-066c-4836-9d5a-ccb1ea6926fd\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
+      "uuid": "7188a4a9-b26b-47c2-9d98-5e774fd05835",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"specularColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"glossiness\": -10,\n        \"diffuseTexture\": {\n          \"__uuid__\": \"1708d80d-066c-4836-9d5a-ccb1ea6926fd\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true,\n        \"INPUT_IS_GAMMA\": true\n      }\n    }\n  }\n}",
       "name": "M_GroundPlane.mtl",
       "subMetas": {}
     },
     "M_Sky.mtl": {
       "ver": "1.0.3",
-      "uuid": "87c61db1-616c-44ad-ad91-fb3b324e15d3",
+      "uuid": "10ff1709-ab06-493e-bc1d-5b38a53514bf",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"96c47018-db72-42af-aa48-d9f1b76e4239\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_Sky.mtl",
       "subMetas": {}
     },
     "M_Tree_Master.mtl": {
       "ver": "1.0.3",
-      "uuid": "36effff6-bf9e-4914-815e-9a24c01c6507",
+      "uuid": "9de58c6b-069e-4657-9455-2b30fc61556d",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"6c9b5da6-1462-45e6-a16c-34f2adb7a752\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_Tree_Master.mtl",
       "subMetas": {}
     },
     "M_bkg_tree_5.mtl": {
       "ver": "1.0.3",
-      "uuid": "997e6a24-679f-40a2-8f07-05ea427e09f9",
+      "uuid": "0013f71c-f3d6-4d0c-be9f-2d0cd8a0e0cc",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"f969f2c1-93de-453c-9f4d-0c706e1e0b0b\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_bkg_tree_5.mtl",
       "subMetas": {}
     },
     "M_bkg_tree2.mtl": {
       "ver": "1.0.3",
-      "uuid": "9efda8d5-21f7-4482-bc96-4dcc4f1ed32b",
-      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"ad62aa4e-767b-4ce1-b006-fad86f76fa86\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
+      "uuid": "a67db4c2-26b4-4c92-b953-1d6149553878",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"mainTiling\": {\n          \"__type__\": \"cc.Vec2\",\n          \"x\": 1,\n          \"y\": 1\n        },\n        \"mainOffset\": {\n          \"__type__\": \"cc.Vec2\",\n          \"x\": 0,\n          \"y\": 0\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"94e94cb7-e789-49f1-b08f-a52a8827309f\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true,\n        \"OUTPUT_TO_GAMMA\": true\n      }\n    }\n  }\n}",
       "name": "M_bkg_tree2.mtl",
       "subMetas": {}
     },
     "M_bkg_tree3.mtl": {
       "ver": "1.0.3",
-      "uuid": "122444e5-2c07-430c-ab73-2eeb6861d5ae",
-      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"ad62aa4e-767b-4ce1-b006-fad86f76fa86\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
+      "uuid": "1ceeb492-1d5e-4707-8af4-fba44cec23fc",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"ad62aa4e-767b-4ce1-b006-fad86f76fa86\"\n        },\n        \"mainTiling\": {\n          \"__type__\": \"cc.Vec2\",\n          \"x\": -1,\n          \"y\": 1\n        },\n        \"mainOffset\": {\n          \"__type__\": \"cc.Vec2\",\n          \"x\": 1,\n          \"y\": 0\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_bkg_tree3.mtl",
       "subMetas": {}
     },
     "M_bkg_tree_4.mtl": {
       "ver": "1.0.3",
-      "uuid": "4fe70e23-c753-4a13-b3b3-7d89adafec08",
+      "uuid": "cc65eb7e-39f5-4ced-9532-b4ebcac5a6b0",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"ad62aa4e-767b-4ce1-b006-fad86f76fa86\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_bkg_tree_4.mtl",
       "subMetas": {}
     },
     "M_light3.mtl": {
       "ver": "1.0.3",
-      "uuid": "52d70570-48e0-42db-a772-35cd01080cca",
-      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"alphaThreshold\": 0,\n        \"diffuseTexture\": {\n          \"__uuid__\": \"1be1fe41-b9ca-4f2b-b500-dcf4f220648e\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true,\n        \"INPUT_IS_GAMMA\": false\n      }\n    }\n  }\n}",
+      "uuid": "01972203-0299-4817-a15d-ff96b027379e",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"alphaThreshold\": 0.01,\n        \"diffuseTexture\": {\n          \"__uuid__\": \"1be1fe41-b9ca-4f2b-b500-dcf4f220648e\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_light3.mtl",
       "subMetas": {}
     },
     "M_Stump.mtl": {
       "ver": "1.0.3",
-      "uuid": "6b3ae6c7-b117-4f3b-ad00-09dd1866820a",
+      "uuid": "df075f7b-1aee-4a37-b6e6-be3647d3803b",
       "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"f469f7ff-8ae2-400e-b8af-bb6433da5f47\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_Stump.mtl",
       "subMetas": {}
     },
     "M_Grass2.mtl": {
       "ver": "1.0.3",
-      "uuid": "a8e7f68f-e2b6-411e-9341-76f4884e0273",
-      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"5821e2a1-16f0-4129-8af3-9e753fe93ef8\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
+      "uuid": "76a68707-1e9a-46f6-afe5-37bd2cb738e6",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"5821e2a1-16f0-4129-8af3-9e753fe93ef8\"\n        },\n        \"alphaThreshold\": 0.99\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_Grass2.mtl",
       "subMetas": {}
     },
     "M_3D_plant.mtl": {
       "ver": "1.0.3",
-      "uuid": "e80cc399-66e9-4cef-99e8-c4133715be76",
-      "dataAsSubAsset": null,
+      "uuid": "7943e659-15a5-445a-a8cd-a512ba4c5d94",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"db8ee5e6-ef81-4097-9ec3-9fd483d37295\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_3D_plant.mtl",
       "subMetas": {}
     },
     "M_3D_log.mtl": {
       "ver": "1.0.3",
-      "uuid": "b805808a-bb3b-4849-b7b8-d19aaff244f2",
-      "dataAsSubAsset": null,
+      "uuid": "fe39d3fd-976c-41fc-b713-a04bfc47f7a6",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"b1298712-0926-4105-8622-64d742427425\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"USE_ALPHA_TEST\": true\n      }\n    }\n  }\n}",
       "name": "M_3D_log.mtl",
       "subMetas": {}
     }
