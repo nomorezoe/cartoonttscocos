@@ -1,7 +1,7 @@
 let MusicToggle = require("MusicToggle");
 let BodyAnim = require("BodyAnim");
 
-cc.Class({
+let Game = cc.Class({
     extends: cc.Component,
 
     properties: {
@@ -293,8 +293,8 @@ cc.Class({
     blockClickHandler() {
         this.blockerNode.active = false;
         this.music.initialize();
-        this.tryToStartFurweeIntro();
-        //this.introCameraAnim();
+         //this.tryToStartFurweeIntro();
+       this.introCameraAnim();
     },
 
     introCameraAnim() {

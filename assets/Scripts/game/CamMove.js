@@ -1,3 +1,5 @@
+let Game = require("Game");
+
 let CamAdjust = cc.Class({
     extends: cc.Component,
 
@@ -26,6 +28,8 @@ let CamAdjust = cc.Class({
         screenHeight: 0,
         designResolutionHeight: 0,
         designResolutionHeight_2: 0,
+
+        game:Game
     },
 
     onLoad: function () {
@@ -63,6 +67,9 @@ let CamAdjust = cc.Class({
     },
 
     onMouseMove: function (evt) {
+        if(!this.game.furweeIntialized){
+            return;
+        }
         // console.log(this.screenWidth/2 - evt._x, this.screenWidth/2);
         let targetY = (this.screenWidth / 2 - evt._x) / (this.screenWidth / 2) * this.rotRangeY;
         let targetX = (this.screenHeight / 2 - evt._y) / (this.screenHeight / 2) * this.rotRangeX ;
